@@ -22,7 +22,5 @@ function minutes-display()
 }
 
 figlet Break  until  $(date -d "$1 minutes" +"%H:%M")
-# date -d "$1 minutes" +"%H:%M" | figlet
-
 
 minutes-display $1
